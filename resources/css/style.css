@@ -1,0 +1,134 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* Header Style */
+
+header {
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: relative;
+  top: 1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+nav span {
+    padding-left: 2rem;
+}
+
+/* Main Banner */
+
+.banner {
+  background-image: url("../images/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
+
+.headline {
+  background-color: white;
+  padding: 1.5rem 5rem;
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: 10rem;
+}
+
+.headline h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+/* Icons */
+
+.icons {
+  display: flex;
+  justify-content: center;
+  height: 8rem;
+  margin: 3rem auto;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 5rem;
+  padding: 0 3rem;
+  text-align: center;
+}
+
+.icon img {
+  max-width: 5rem;
+  height: auto;
+}
+
+#paper {
+  width: 3.5rem;
+  height: auto;
+}
+
+/* Biz Info */
+
+.biz-info {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  width: 35%;
+  padding: 0 2.5%;
+}
+
+.head {
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1.25rem;
+  width: 10rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+
+footer {
+  background-color: azure;
+}
+
+footer img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  padding: 4rem;
+  margin-top: 5rem;
+}
